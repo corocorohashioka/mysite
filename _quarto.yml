@@ -4,10 +4,13 @@ project:
 website:
   title: "mysite"
   navbar:
+    background: primary
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+    search: true
+    
 
 format:
   html:
